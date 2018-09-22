@@ -13,6 +13,9 @@ import yaml
 import glob
 import time
 import pdb
+import random
+
+kSubsetTestArticles = 10
 
 def dynamicImport(name):
     try:
@@ -103,8 +106,11 @@ for inputSource in inputSources:
         save article object in output folder in yaml/json format
     '''
 
-    # TODO: only get request for now, otherwise update config file to include post request and post data
-    for articleSourceFile in articleSourceFiles:
+    articleSubsetForTesting = random.sample(articleSourceFiles, kSubsetTestArticles)
+    print ("\n-----------------------------")
+    print ("Publisher: " + publisherName)
+    print ("-----------------------------\n")
+    for articleSourceFile in articleSubsetForTesting:
         print ("\nworking on: " + articleSourceFile)
         startTime = time.time()
 
@@ -121,7 +127,7 @@ for inputSource in inputSources:
             article, status = publisherClass.createArticleObject(globalID = globalID, articleSourceFilename = articleSourceFile, articleSourceCode = articleSourceCode)
 
             print (status)
-            
+
             yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
 
             globalID += 1 # TODO: Dont increment globalID if the current article is not going to be added to the dataset

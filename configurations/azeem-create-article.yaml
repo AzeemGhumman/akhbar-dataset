@@ -6,7 +6,7 @@ inputSources:
   - publisher: Dawn
     folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/Dawn
   - publisher: FridayTimes
-    folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/FridayTimes
+    folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/TheFridayTimes
   - publisher: FrontierPost
     folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/FrontierPost
   - publisher: Geo
