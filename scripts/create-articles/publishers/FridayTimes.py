@@ -38,7 +38,7 @@ class FridayTimes(common.Publisher):
             '
         """
         author_name = []
-        author_name.append(pageSoup.findAll('div', {'class': 'post_detail2'})[0].text.split('\n')[1])
+        author_name.append(pageSoup.findAll('div', {'class': 'post_detail2'})[0].text.split('\n')[1].strip())
         return author_name
 
     def getArticleDate(self, articleSourceFilename, pageSoup):
