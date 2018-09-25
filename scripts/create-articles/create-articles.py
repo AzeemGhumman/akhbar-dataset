@@ -15,7 +15,7 @@ import time
 import pdb
 import random
 
-kSubsetTestArticles = 10
+kSubsetTestArticles = 5
 
 def dynamicImport(name):
     try:

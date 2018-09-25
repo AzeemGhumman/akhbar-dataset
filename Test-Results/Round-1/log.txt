@@ -1,0 +1,366 @@
+Loading config file: E:\Python Projects\panda-dataset\configurations\create-articles.yaml
+
+-----------------------------
+Publisher: DailyTimes
+-----------------------------
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\115722\how-educated-youth-are-attracted-to-militancy\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\2244\lack-of-ethics-in-our-media\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\200120\search-taiwan-quake-victims-ends-toll-rises-17\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\saad-hafiz\feed\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\267124\worlds-most-incredible-kids\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\annam-burki\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\6395\adam-west-died-at-age-of-88\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\184444\pakistani-celebrities-turn-heads-miss-veets-red-carpet\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\ijaz-kakakhel\page\16\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\264639\todays-cartoon-1761\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\hussain-nadim\page\2\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\121313\beyond-the-wall-tales-of-persecuted-lives-at-the-berlin-wall\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\hamza-jamil\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\75797\obamas-vietnam-and-japan-visits\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\121431\ruling-pml-n-supporters-live-tweet-show-of-power\index.html
+
+
+-----------------------------
+Publisher: Dawn
+-----------------------------
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page130603.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page174430.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1207224.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page159443.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1245388.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page212779.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1237497.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page214064.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1259286.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page152954.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page209000.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page169587.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1253775.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1257079.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page170979.html
+
+
+-----------------------------
+Publisher: FridayTimes
+-----------------------------
+
+
+working on: D:\Temp\friday-times\tft\such-gup-145\index.html
+
+
+working on: D:\Temp\friday-times\tft\international-reaction-mixed-to-panama-verdict\index.html
+
+
+working on: D:\Temp\friday-times\tft\2016\09\page\4\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\2014\page\90\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\a-hallowed-eve\index.html
+
+
+working on: D:\Temp\friday-times\tft\letters-26\index.html
+
+
+working on: D:\Temp\friday-times\tft\2015\page\89\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\tag\heritage\page\3\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\federalizing-the-armed-forces\index.html
+
+
+working on: D:\Temp\friday-times\tft\unsettling\index.html
+
+
+working on: D:\Temp\friday-times\tft\tag\the-last-word\feed\index.html
+Error parsing getArticleUrl
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\road-to-progress\index.html
+
+
+working on: D:\Temp\friday-times\tft\2014\11\page\5\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\friday-times\tft\taliban-after-mullah-mansoor\index.html
+
+
+working on: D:\Temp\friday-times\tft\tag\focus\page\3\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+-----------------------------
+Publisher: FrontierPost
+-----------------------------
+
+
+working on: D:\Temp\frontier\un-struggling-provide-humanitarian-aid-people-syria\index.html
+
+
+working on: D:\Temp\frontier\shehbaz-advises-imran-khan-make-amends-nawaz-sharif\index.html
+
+
+working on: D:\Temp\frontier\weight-loss-surgery-can-increase-fracture-risk\index.html
+
+
+working on: D:\Temp\frontier\al-azizia-reference-wajid-zia-concludes-recording-statement-against-sharif-family\index.html
+
+
+working on: D:\Temp\frontier\category\uncategorized\page\3\index.html
+Error parsing getArticleHeading
+
+
+working on: D:\Temp\frontier\afghan-clerics-gathering-for-peace-targeted-in-kabul\index.html
+
+
+working on: D:\Temp\frontier\nab-questions-zaeem-qadri-in-saaf-pani-company-case\index.html
+
+
+working on: D:\Temp\frontier\no-casualties-in-jalalabad-blasts\index.html
+
+
+working on: D:\Temp\frontier\pak-china-joint-air-exercise-shaheen-vi-full-swing\index.html
+
+
+working on: D:\Temp\frontier\2018\08\page\8\index.html
+Error parsing getArticleHeading
+
+
+working on: D:\Temp\frontier\china-agrees-to-import-more-goods-from-us\index.html
+
+
+working on: D:\Temp\frontier\dc-rejects-pti-request-holding-jail-road-rally-today\index.html
+
+
+working on: D:\Temp\frontier\sarfraz-not-use-tough-conditions-excuse-zaheer-abbas\index.html
+
+
+working on: D:\Temp\frontier\2-3m-people-registered-as-voters-iec\index.html
+
+
+working on: D:\Temp\frontier\maryam-nawaz-obtains-nomination-papers-for-na-125\index.html
+
+
+-----------------------------
+Publisher: Geo
+-----------------------------
+
+
+working on: D:\Temp\Geo-Clean\Geo\100654.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\194536.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\127961.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\141530.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\148248.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\170010.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\172822.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\161508.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\103662.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\200232.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\Geo-Clean\Geo\179549.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\208749.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\202930.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+
+
+working on: D:\Temp\Geo-Clean\Geo\104157.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\116691.html
+
+
+-----------------------------
+Publisher: TheNews
+-----------------------------
+
+
+working on: D:\Temp\thenews\print\238983-Easy-on-the-pocket-housing-shrinking-in-Rawalpindi.html
+
+
+working on: D:\Temp\thenews\latest\330641-imran-seeks-removal-of-nadra-chief-usman-mobin-for-allegedly-providing-data-to-pml-n.html
+
+
+working on: D:\Temp\thenews\writer\kevin-zeese-.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+
+
+working on: D:\Temp\thenews\print\99156-PHC-suspends-CTDs-recommendation.html
+
+
+working on: D:\Temp\thenews\latest\264490-us-places-pakistan-on-watch-list-for-severe-violations-of-religious-freedom.html
+
+
+working on: D:\Temp\thenews\print\281170-replies-sought-in-plea-against-scrutiny-of-senate-candidates.html
+
+
+working on: D:\Temp\thenews\print\292115-what-is-good-for-heart-is-good-for-head.html
+
+
+working on: D:\Temp\thenews\print\147378-Another-shot-in-the-arm.html
+
+
+working on: D:\Temp\thenews\print\65769-olympians-dejected-by-silence-about-inquiry-audit.html
+
+
+working on: D:\Temp\thenews\latest\233994-Controversy-surrounds-Rangers-deployment-around-accountability-court.html
+
+
+working on: D:\Temp\thenews\print\64466-aiou-announces-fee-waiver-for-children-of-zarb-e-azb-martyrs.html
+
+
+working on: D:\Temp\thenews\print\226101-Legal-eye-Minds-wide-shut.html
+
+
+working on: D:\Temp\thenews\print\87542-brave-new-world-or-the-past-revisitedd41d.html
+
+
+working on: D:\Temp\thenews\print\134382-Edhi-and-his-work-will-never-be-forgotten.html
+
+
+working on: D:\Temp\thenews\print\326170-karachiites-mark-world-environment-day-by-planting-trees.html
+
+Done

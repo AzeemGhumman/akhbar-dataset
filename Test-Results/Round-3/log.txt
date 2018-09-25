@@ -1,0 +1,320 @@
+Loading config file: E:\Python Projects\panda-dataset\configurations\create-articles.yaml
+
+-----------------------------
+Publisher: DailyTimes
+-----------------------------
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\razi-syed\page\11\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\24381\reparable-russian-rift-or-costly-counter-productive-confrontation\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\280940\asian-markets-mostly-up-as-dealers-take-china-tariffs-in-stride\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\opeds\page\17\index.html
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\jamil-junejo\feed\index.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\231198\trend-of-songs-about-social-issues-becoming-popular-in-pakistan\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\190034\laboure-receives-acid-burns-workplace\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\102105\abolishing-death-sentences\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\waqas-habib-rana\index.html
+Error parsing getArticleTags
+Error parsing getArticleAuthors
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\276628\low-voter-turnout-in-karachi\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\21622\are-we-out-of-the-woods-yet\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\106612\pakistan-and-the-social-contract\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\281985\200-drug-users-bust-out-of-vietnam-rehab-centre\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\183536\opp-unites-pml-n\index.html
+
+
+working on: D:\Temp\dailytimes\dailytimes.com.pk\126251\kants-unsocial-sociability-us\index.html
+
+
+-----------------------------
+Publisher: Dawn
+-----------------------------
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1240121.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page187392.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page164698.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page132540.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page123563.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page116730.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page164160.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page209335.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page152462.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page186074.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1222630.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page165139.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page129779.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page165200.html
+
+
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1263435.html
+
+
+-----------------------------
+Publisher: FridayTimes
+-----------------------------
+
+
+working on: D:\Temp\friday-times\tft\oasis-amidst-aridity\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\the-past\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\2016\11\page\8\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\category\latest-issue\page\578\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\psl-beyond-borders-and-stereotypes\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\category\hot-features\page\76\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\denouement\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\blank-parchi\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\the-dissenters\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\the-cradle\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\we-carry-books-not-guns\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\the-rise-and-fall-of-pia-iv\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\whos-in-the-dock\feed\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\with-afghan-change-of-heart-perhaps-a-taliban-thaw\index.html
+Error: Publisher class 'FridayTimes' not found
+
+working on: D:\Temp\friday-times\tft\the-other-comeback\index.html
+Error: Publisher class 'FridayTimes' not found
+
+-----------------------------
+Publisher: FrontierPost
+-----------------------------
+
+
+working on: D:\Temp\frontier\least-50-militants-killed-latest-nangarhar-operations\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\ferrari-now-f1s-benchmark-engine\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\shehbaz-sharif-pledges-swift-justice-multan-panchayat-rape-victims\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\zil-hajj-moon-not-sighted-eid-ul-azha-sept-2\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\pm-abbasi-requests-maulana-fazal-take-back-support-no-confidence-motion\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\avefield-reference-mna-capt-retd-safdar-to-record-statement-today\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\iran-will-never-compromise-on-its-nuclear-program-khamenei\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\sc-orders-nab-to-probe-into-appointment-salary-of-pia-ceo\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\ministry-intends-regulate-umrah-activities\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\pakistan-army-rescues-five-foreign-hostages-kidnapped-2012\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\un-toughens-sanctions-north-korea\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\shahbaz-next-pm-pml-n-wins-2018-polls\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\gulalais-allegations-imran-needs-investigated-hanif-abbasi\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\indian-rejection-of-ohchr-report-on-kashmir-a-missed-opportunity\index.html
+Error: Publisher class 'FrontierPost' not found
+
+working on: D:\Temp\frontier\iran-currency-extends-record-fall-as-us-sanctions-loom\index.html
+Error: Publisher class 'FrontierPost' not found
+
+-----------------------------
+Publisher: Geo
+-----------------------------
+
+
+working on: D:\Temp\Geo-Clean\Geo\149402.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\102701.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\143130.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\130589.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\199779.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\202937.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\189844.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\172509.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\141761.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\156625.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\7190.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\194165.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\168105.html
+
+
+working on: D:\Temp\Geo-Clean\Geo\202613.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+
+
+working on: D:\Temp\Geo-Clean\Geo\207265.html
+
+
+-----------------------------
+Publisher: TheNews
+-----------------------------
+
+
+working on: D:\Temp\thenews\print\162196-CM-vows-legal-action-against-interior-minister-others.html
+
+
+working on: D:\Temp\thenews\latest\258948-world-record-for-indian-man-as-he-smashes-most-coconuts-with-one-hand-in-one-minute.html
+
+
+working on: D:\Temp\thenews\print\100319-Overseas-Pakistan-to-get-voting-right-in-next-polls.html
+
+
+working on: D:\Temp\thenews\print\236025-A-tale-of-true-friendship.html
+
+
+working on: D:\Temp\thenews\latest\250925-indian-troops-martyr-five-more-youth-in-occupied-kashmir.html
+
+
+working on: D:\Temp\thenews\print\98356-Education-in-the-time-of-terror.html
+
+
+working on: D:\Temp\thenews\print\288930-pti-khyber-agency-activists-complain-of-intra-party-rift.html
+
+
+working on: D:\Temp\thenews\writer\noor-aftab\31.html
+Error parsing getArticleDate
+Error parsing getArticleText
+Error parsing getArticleHeading
+Error parsing getArticleTags
+
+
+working on: D:\Temp\thenews\print\177182-Cases-of-violence-against-women-increase.html
+
+
+working on: D:\Temp\thenews\print\148088-Youngsters-to-learn-unique-Pakistan-specific-truck-art.html
+
+
+working on: D:\Temp\thenews\print\87414-growing-up-and-acquiring-new-habits-takes-time.html
+
+
+working on: D:\Temp\thenews\print\211960-Tailors-working-day-and-night-to-meet-orders.html
+
+
+working on: D:\Temp\thenews\print\104103-7-killed-as-rivals-clash-in-Peshawar.html
+
+
+working on: D:\Temp\thenews\print\83904-SC-forms-body-to-probe-illegal-police-appointments.html
+
+
+working on: D:\Temp\thenews\print\228092-Nawaz-likely-to-return-on-Friday.html
+
+Done
