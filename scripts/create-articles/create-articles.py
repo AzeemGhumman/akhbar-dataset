@@ -14,16 +14,6 @@ import glob
 import time
 import pdb
 
-def dynamicImport(name):
-    try:
-        components = name.split('.')
-        mod = __import__(components[0])
-        for comp in components[1:]:
-            mod = getattr(mod, comp)
-        return mod
-    except:
-        return None
-
 if len(sys.argv) is 1:
     print ("Error: Please specify the config file path")
     sys.exit()
@@ -32,42 +22,12 @@ if len(sys.argv) is 1:
 configFilePath = sys.argv[1]
 # configFilePath = "C:\\Users\\drzah\\Desktop\\newspaper\\newspaper-project\\configurations\\create-articles.yaml"
 
-
-publisher = None
-folderPath = None
-outputTypeString = None
-inputSources = []
-
-print ("Loading config file: " + configFilePath)
-# Extract config data from config file
-if os.path.exists(configFilePath):
-    config = yaml.load(open(configFilePath))
-
-    params = ["outputFolderPath", "outputType", "inputSources"]
-    # Check for elements in the config file
-    for param in params:
-        if param not in config:
-            print("Error: " + param + " missing in config file")
-            exit
-
-    outputFolderPath = config["outputFolderPath"]
-    outputTypeString = config["outputType"]
-    inputSources = config["inputSources"]
-
-else:
-    print ("config file does not exist")
-    exit
+# Load Configuration data
+outputFolderPath, inputSources = common.loadConfiguration(configFilePath, ["outputFolderPath", "inputSources"])
 
 # Create folder if not exists
 if not os.path.exists(outputFolderPath):
     os.makedirs(outputFolderPath)
-
-# Set output type
-outputType = None
-if outputTypeString.lower() == "yaml":
-    outputType = common.OutputType.YAML
-elif outputTypeString.lower() == "json":
-    outputType = common.OutputType.JSON
 
 # Get a list of article files
 '''
@@ -113,7 +73,7 @@ for inputSource in inputSources:
             articleSourceCode = open(articleSourceFile,"r", encoding='utf8').read()
 
             # Dynamically load the right publisher
-            publisherModule = dynamicImport(publisherName)
+            publisherModule = common.dynamicImport(publisherName)
             if publisherModule is None:
                 print ("Error: Publisher class '" + publisherName + "' not found" )
                 continue

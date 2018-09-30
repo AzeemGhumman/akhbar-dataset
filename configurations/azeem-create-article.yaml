@@ -1,5 +1,4 @@
 outputFolderPath: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/articles/
-outputType: YAML
 inputSources:
   - publisher: DailyTimes
     folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/DailyTimes

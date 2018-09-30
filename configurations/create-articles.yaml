@@ -1,5 +1,4 @@
 outputFolderPath: E:\Python Projects\panda-dataset\artifacts\articles
-outputType: YAML
 inputSources:
   - publisher: DailyTimes
     folder: E:\Python Projects\panda-dataset\artifacts\source-code\DailyTimes

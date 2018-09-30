@@ -329,7 +329,7 @@ Error parsing getArticleText
 Error parsing getArticleHeading
 Error parsing getArticleTags
 
-Time taken: 19.364646911621094 for 224 articles
+Time taken: 17.322636604309082 for 224 articles
 
 
 Summary: 

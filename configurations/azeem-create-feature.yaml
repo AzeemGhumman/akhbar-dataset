@@ -1,0 +1,6 @@
+outputFolder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/features/
+dataset: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/articles/dataset.yaml
+features:
+  - CountWords
+  - CountCharacters
+  - FindProperNouns
