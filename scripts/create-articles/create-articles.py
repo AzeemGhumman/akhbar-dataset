@@ -33,52 +33,73 @@ outputFolderPath, inputSources, chunkSize, threads = common.loadConfiguration(co
 if not os.path.exists(outputFolderPath):
     os.makedirs(outputFolderPath)
 
-def saveArticleToDataset(articleSourceFile):
-    global fileID
-    global globalID
-    global datasetForCurrentFeature
 
-    if not os.path.exists(articleSourceFile):
+# Create a lock for the chunk
+# lock = threading.Lock()
+
+def saveChunkToFile(articleChunk):
+
+
+
+    # Make the Pool of workers
+    pool = ThreadPool(threads)
+    chunkFileContents = []
+    # Extract Feature for given article
+    pool.map(saveArticleToDataset, articleChunk)
+    # Close the pool and wait for the work to finish
+    pool.close()
+    pool.join()
+
+    # TODO: get unique file id of chunk
+    fullPath = os.path.join(outputFolderPath, "dataset-" + str("1") + ".yaml")
+    outputFile = open(fullPath, 'w+')
+    outputText = "\n".join(chunkFileContents)
+    outputFile.write(outputText)
+    outputFile.close()
+
+    pass
+
+def saveArticleToDataset(articleSourceFile):
+    # global fileID
+    global globalID
+    global chunkFileContents
+    # global lock
+
+    sourceFile, publisher = articleSourceFile
+
+
+    if not os.path.exists(sourceFile):
         print ("Error: file does not exists: " + articleSourceFile)
         return
 
-    articleSourceCode = open(articleSourceFile,"r", encoding='utf8').read()
+    articleSourceCode = open(sourceFile,"r", encoding='utf8').read()
 
-    article, status = publisherClass.createArticleObject(globalID = None, \
-                                                         articleSourceFilename = articleSourceFile, \
+    article, status = publisherModulesDict[publisher].createArticleObject(globalID = None, \
+                                                         articleSourceFilename = sourceFile, \
                                                          articleSourceCode = articleSourceCode)
 
     # Write file to dataset only if status == ""
     if len(status) > 0:
-        print ("File: " + articleSourceFile)
+        print ("File: " + sourceFile)
         print (status)
         return
 
-
-    lock.acquire()
+    # lock.acquire()
     # setting the globalID here instead of article constructor to enable multiple thread create articles
     # without worrying about unique globalIDs
     article.globalID = globalID
     yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
-    datasetForCurrentFeature.append(yamlOutput)
+    chunkFileContents.append(yamlOutput)
     globalID += 1
 
-    # Add publisher count
-    if publisherName in publisherCounts:
-        publisherCounts[publisherName] += 1
-    else:
-        publisherCounts[publisherName] = 0
-    # Print update on every 1000th article, might be useful if scripts crashes for some reason
-    if globalID % chunkSize == 0:
-        fullPath = os.path.join(outputFolderPath, "dataset-" + str(fileID) + ".yaml")
-        outputFile = open(fullPath, 'w+')
-        outputText = "\n".join(datasetForCurrentFeature)
-        outputFile.write(outputText)
-        outputFile.close()
-        fileID += 1
-        # Clear the current feature buffer
-        datasetForCurrentFeature = []
+    pdb.set_trace()
 
+    # # Add publisher count
+    # if publisherName in publisherCounts:
+    #     publisherCounts[publisherName] += 1
+    # else:
+    #     publisherCounts[publisherName] = 0
+    #
     lock.release()
 
 # Get a list of article files
@@ -93,38 +114,59 @@ publisherCounts = {}
 fileID = 1
 globalID = 1
 
-# Create a lock
-lock = threading.Lock()
-
 datasetForCurrentFeature = []
+articleSourceFiles = []
+publisherModulesDict = {}
 
 for inputSource in inputSources:
 
     publisherName = inputSource['publisher']
     inputFolder = inputSource['folder']
 
-    articleSourceFiles = []
+
     for filename in glob.iglob(inputFolder + '/**/*.html', recursive=True):
         if "/amp/" not in filename and "\\amp\\" not in filename:
             if os.path.getsize(filename) > 3 * 1024:
-                articleSourceFiles.append(filename)
+                articleSourceFiles.append((filename, publisherName))
 
-    # Dynamically load the right publisher
-    publisherModule = common.dynamicImport(publisherName)
-    if publisherModule is None:
-        print ("Error: Publisher class '" + publisherName + "' not found" )
-        continue
-    publisherClass = getattr(publisherModule, publisherName)()
+    # Dynamically load publishers that are seen for the first time
+    if publisherName not in publisherModulesDict:
+        publisherModule = common.dynamicImport(publisherName)
+        if publisherModule is None:
+            print ("Error: Publisher class '" + publisherName + "' not found" )
+            continue
+        publisherModulesDict[publisherName] = getattr(publisherModule, publisherName)()
 
-    '''
-    Logic:
-    For each file:
-        get the file contents
-        get publisher name
-        create article object
-        log errors and warnings
-        save article object in output folder in yaml/json format
-    '''
+
+articleChunks = [articleSourceFiles[i:i + chunkSize] for i in range(0, len(articleSourceFiles), chunkSize)]
+
+# Make the Pool of workers
+pool = ThreadPool(threads)
+# Extract Feature for given article
+pool.map(saveChunkToFile, articleChunks)
+# Close the pool and wait for the work to finish
+pool.close()
+pool.join()
+
+endTime = time.time()
+print ("Time taken: " + str(endTime - startTime) + " for " + str(globalID) + " articles\n\n")
+# print ("Summary: ")
+# for publisher in publisherCounts:
+#     print ("name: " + str(publisher) + ", count: " + str(publisherCounts[publisher]))
+
+print ("\nDone")
+
+'''
+
+
+    # Logic:
+    # For each file:
+    #     get the file contents
+    #     get publisher name
+    #     create article object
+    #     log errors and warnings
+    #     save article object in output folder in yaml/json format
+
 
     # for articleSourceFile in articleSourceFiles:
     #     saveArticleToDataset(articleSourceFile)
@@ -149,5 +191,7 @@ print ("Time taken: " + str(endTime - startTime) + " for " + str(globalID) + " a
 print ("Summary: ")
 for publisher in publisherCounts:
     print ("name: " + str(publisher) + ", count: " + str(publisherCounts[publisher]))
+
+'''
 
 print ("\nDone")
