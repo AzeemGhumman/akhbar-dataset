@@ -2,7 +2,7 @@
 authors:
 - Wasif Shakil
 date: 28-01-2016
-globalID: 0
+globalID: 2
 heading: Facebook likely be the publisher of everything, says Prof Craig Duff
 language: en
 publisher: The News
@@ -98,7 +98,7 @@ url: https://www.thenews.com.pk/latest/94429-Facebook-likely-to-become-publisher
 authors:
 - Murtaza Ali Shah
 date: 14-01-2016
-globalID: 1
+globalID: 5
 heading: "Pakistani appointed UK\u2019s Shadow Minister of State"
 language: en
 publisher: The News
@@ -119,7 +119,7 @@ url: https://www.thenews.com.pk/latest/90313-Pakistani-appointed-UKs-Shadow-Mini
 authors:
 - Web  Desk
 date: 27-08-2018
-globalID: 2
+globalID: 10
 heading: "JUI-F chief meets Zardari, seeks PPP\u2019s support for presidential election"
 language: en
 publisher: The News
@@ -146,7 +146,7 @@ url: https://www.thenews.com.pk/latest/360231-jui-f-chief-meets-zardari-seeks-pp
 authors:
 - Abdul Hafeez
 date: 25-05-2015
-globalID: 3
+globalID: 14
 heading: Kanupp defends its ambitions, rules out doomsday scenario
 language: en
 publisher: The News
@@ -214,7 +214,7 @@ url: https://www.thenews.com.pk/latest/4683-kanupp-defends-its-ambitions-rules-o
 authors:
 - Muhammad Nasir
 date: 17-04-2016
-globalID: 4
+globalID: 18
 heading: "SRK \u2018Fan\u2019 breaks records, earns 50 crore in just two days"
 language: en
 publisher: The News
@@ -258,7 +258,7 @@ url: https://www.thenews.com.pk/latest/113377-SRK-Fan-breaks-records-earns-50-cr
 authors:
 - Murtaza Ali Shah
 date: 07-05-2016
-globalID: 5
+globalID: 22
 heading: "Pakistani bus driver\u2019s son Sadiq Khan becomes London Mayor"
 language: en
 publisher: The News
@@ -343,7 +343,7 @@ url: https://www.thenews.com.pk/latest/117943-Pakistani-bus-drivers-son-Sadiq-Kh
 authors:
 - Web  Desk
 date: 27-08-2018
-globalID: 6
+globalID: 26
 heading: Shah Rukh Khan speaks out against gender wage disparity in Bollywood
 language: en
 publisher: The News
@@ -369,7 +369,7 @@ url: https://www.thenews.com.pk/latest/360222-shah-rukh-khan-speaks-out-against-
 authors:
 - APP
 date: 27-08-2018
-globalID: 7
+globalID: 29
 heading: Senate passes National Disaster Management (Amendment) Act 2017
 language: en
 publisher: The News
@@ -431,7 +431,7 @@ url: https://www.thenews.com.pk/latest/360223-senate-passes-national-disaster-ma
 authors:
 - Murtaza Ali Shah
 date: 14-03-2016
-globalID: 8
+globalID: 32
 heading: Sarfraz Merchant refuses to appear before FIA on March 15
 language: en
 publisher: The News
@@ -520,7 +520,7 @@ url: https://www.thenews.com.pk/latest/105196-Sarfraz-Merchant-refuses-to-appear
 authors:
 - AFP
 date: 27-08-2018
-globalID: 9
+globalID: 34
 heading: Afghanistan win 1st ODI against Ireland by 29 runs
 language: en
 publisher: The News
@@ -541,7 +541,7 @@ url: https://www.thenews.com.pk/latest/360233-afghanistan-win-1st-odi-against-ir
 authors:
 - REUTERS
 date: 28-08-2018
-globalID: 10
+globalID: 37
 heading: "Canada\xB4s Freeland to travel to Washington Tuesday for NAFTA"
 language: en
 publisher: The News
@@ -562,7 +562,7 @@ url: https://www.thenews.com.pk/latest/360234-canadas-freeland-to-travel-to-wash
 authors:
 - APP
 date: 27-08-2018
-globalID: 11
+globalID: 39
 heading: "Guest of Honour status for Pakistan at China\u2019s International Import\
   \ Expo"
 language: en
@@ -620,7 +620,7 @@ url: https://www.thenews.com.pk/latest/360227-guest-of-honour-status-for-pakista
 authors:
 - APP
 date: 27-08-2018
-globalID: 12
+globalID: 41
 heading: Senator Hidayat Ullah Khan joins PTI
 language: en
 publisher: The News
@@ -641,7 +641,7 @@ url: https://www.thenews.com.pk/latest/360225-senator-hidayat-ullah-khan-joins-p
 authors:
 - AFP
 date: 27-08-2018
-globalID: 13
+globalID: 44
 heading: Afghanistan win 1st ODI against Ireland by 29 runs
 language: en
 publisher: The News
@@ -662,7 +662,7 @@ url: https://www.thenews.com.pk/latest/360229-afghanistan-win-1st-odi-against-ir
 authors:
 - Web Desk
 date: 27-08-2018
-globalID: 14
+globalID: 46
 heading: Aleem Khan announces to donate salary as minister to SKMCH
 language: en
 publisher: The News
@@ -683,7 +683,7 @@ url: https://www.thenews.com.pk/latest/360221-aleem-khan-announces-to-donate-sal
 authors:
 - Raja Zahid
 date: 26-05-2016
-globalID: 15
+globalID: 49
 heading: "Musharraf\u2019s APML holds workers convention in US"
 language: en
 publisher: The News
@@ -716,7 +716,7 @@ url: https://www.thenews.com.pk/latest/122967-Musharrafs-APML-holds-workers-conv
 authors:
 - Web  Desk & Murtaza Ali Shah
 date: 09-06-2016
-globalID: 16
+globalID: 54
 heading: "London mayor Sadiq questions Imran\u2019s support for Zac Goldsmith"
 language: en
 publisher: The News
@@ -844,7 +844,7 @@ url: https://www.thenews.com.pk/latest/126577-Sadiq-Khan-disappointed-by-childho
 authors:
 - AFP
 date: 27-08-2018
-globalID: 17
+globalID: 58
 heading: Russia says Afghanistan talks postponed
 language: en
 publisher: The News
@@ -879,7 +879,7 @@ url: https://www.thenews.com.pk/latest/360224-russia-says-afghanistan-talks-post
 authors:
 - Raja Zahid
 date: 26-05-2016
-globalID: 18
+globalID: 62
 heading: Pakistani traders visit Houston
 language: en
 publisher: The News
@@ -921,7 +921,7 @@ url: https://www.thenews.com.pk/latest/122966-Pakistani-traders-visit-Houston
 authors:
 - AFP
 date: 27-08-2018
-globalID: 19
+globalID: 67
 heading: 'Millions risk malnutrition as CO2 levels climb: study'
 language: en
 publisher: The News
@@ -977,7 +977,7 @@ url: https://www.thenews.com.pk/latest/360228-millions-risk-malnutrition-as-co2-
 authors:
 - Wajid Ali Syed
 date: 25-05-2016
-globalID: 20
+globalID: 70
 heading: "Bill tabled in US Senate to block $300 million aid to Pakistan  \_"
 language: en
 publisher: The News
@@ -1013,7 +1013,7 @@ url: https://www.thenews.com.pk/latest/122635-Bill-tabled-in-US-Senate-to-block-
 authors:
 - APP
 date: 27-08-2018
-globalID: 21
+globalID: 74
 heading: "Who gave Shahid Afridi famous \u2018Boom Boom\u2019 title?"
 language: en
 publisher: The News
@@ -1047,7 +1047,7 @@ url: https://www.thenews.com.pk/latest/360226-who-gave-shahid-afridi-famous-boom
 authors:
 - Raja Zahid
 date: 21-04-2016
-globalID: 22
+globalID: 79
 heading: US-based Pakistani kills wife in Arlington
 language: en
 publisher: The News
@@ -1070,7 +1070,7 @@ url: https://www.thenews.com.pk/latest/114329-US-based-Pakistani-kills-wife-in-A
 authors:
 - M Waqar Bhatti
 date: 22-05-2016
-globalID: 23
+globalID: 83
 heading: Cancer on the rise among children in underprivileged areas of Pakistan
 language: en
 publisher: The News
@@ -1153,7 +1153,7 @@ url: https://www.thenews.com.pk/latest/121860-Cancer-on-the-rise-among-children-
 authors:
 - GEO ENGLISH
 date: 15-07-2015
-globalID: 24
+globalID: 88
 heading: 'Army Public School tragedy can never be forgotten: COAS'
 language: en
 publisher: The News
@@ -1176,7 +1176,7 @@ url: https://www.thenews.com.pk/latest/6285-army-public-school-tragedy-can-never
 authors:
 - Nadeem Ahmed
 date: 10-04-2016
-globalID: 25
+globalID: 91
 heading: 'Punjab: Woman set on fire in Burewal'
 language: en
 publisher: The News
@@ -1200,7 +1200,7 @@ url: https://www.thenews.com.pk/latest/111683-Punjab-Woman-set-on-fire-in-Burewa
 authors:
 - Abdul Hafeez
 date: 20-05-2015
-globalID: 26
+globalID: 93
 heading: "Pakistan\u2019s first animated film \u20183 Bahadur\u2019 premieres in Karachi"
 language: en
 publisher: The News
@@ -1236,7 +1236,7 @@ url: https://www.thenews.com.pk/latest/4515-pakistans-first-animated-film-3-baha
 authors:
 - Web  Desk
 date: 27-08-2018
-globalID: 27
+globalID: 95
 heading: Pakistan beat Thailand in Asian Games baseball
 language: en
 publisher: The News
@@ -1256,7 +1256,7 @@ url: https://www.thenews.com.pk/latest/360232-pakistan-beat-thailand-in-asian-ga
 authors:
 - Faisal Kamal Pasha
 date: 01-01-2015
-globalID: 28
+globalID: 139
 heading: Increase in UF gas benchmark challenged in IHC
 language: en
 publisher: The News
@@ -1308,7 +1308,7 @@ url: https://www.thenews.com.pk/print/15916-increase-in-uf-gas-benchmark-challen
 authors:
 - Faizan Bangash
 date: 01-01-2015
-globalID: 29
+globalID: 144
 heading: NA-123 faces civic problems, upsurge in crime
 language: en
 publisher: The News
@@ -1492,7 +1492,7 @@ url: https://www.thenews.com.pk/print/15903-na-123-faces-civic-problems-upsurge-
 authors:
 - Saeed Ahmed
 date: 01-01-2015
-globalID: 30
+globalID: 149
 heading: Hanif Abbasi claims project to be completed as per schedule
 language: en
 publisher: The News
@@ -1545,7 +1545,7 @@ url: https://www.thenews.com.pk/print/15929-hanif-abbasi-claims-project-to-be-co
 authors:
 - Obaid Abrar Khan
 date: 01-01-2015
-globalID: 31
+globalID: 153
 heading: Family of three mentally disabled children needs help
 language: en
 publisher: The News
@@ -1581,7 +1581,7 @@ url: https://www.thenews.com.pk/print/15921-family-of-three-mentally-disabled-ch
 authors:
 - Khalid Iqbal
 date: 01-01-2015
-globalID: 32
+globalID: 158
 heading: Prolonged power outages playing on nerves of Pindiites
 language: en
 publisher: The News
@@ -1618,7 +1618,7 @@ url: https://www.thenews.com.pk/print/15920-prolonged-power-outages-playing-on-n
 authors:
 - Javed Mirza
 date: 01-01-2015
-globalID: 33
+globalID: 162
 heading: "Circular debt \u2013 a vicious cycle of unpaid bills"
 language: en
 publisher: The News
@@ -1703,7 +1703,7 @@ url: "https://www.thenews.com.pk/print/15854-circular-debt-\u2013-a-vicious-cycl
 authors:
 - Mehtab Haider
 date: 01-01-2015
-globalID: 34
+globalID: 166
 heading: Mutual legal assistance law to help block terror financing
 language: en
 publisher: The News
@@ -1765,7 +1765,7 @@ url: https://www.thenews.com.pk/print/15933-mutual-legal-assistance-law-to-help-
 authors:
 - Tariq Butt
 date: 01-01-2015
-globalID: 35
+globalID: 171
 heading: "Govt can\u2019t change Constitution sans consensus"
 language: en
 publisher: The News
@@ -1833,7 +1833,7 @@ url: https://www.thenews.com.pk/print/15938-govt-cant-change-constitution-sans-c
 authors:
 - Shahina Maqbool
 date: 01-01-2015
-globalID: 36
+globalID: 176
 heading: 'New drug pricing policy: will it really purge the system of discretion?'
 language: en
 publisher: The News
@@ -1977,7 +1977,7 @@ url: https://www.thenews.com.pk/print/15919-new-drug-pricing-policy-will-it-real
 authors:
 - Waseem Abbasi
 date: 01-01-2015
-globalID: 37
+globalID: 181
 heading: 2014 darkest year in terms of polio eradication
 language: en
 publisher: The News
@@ -2086,7 +2086,7 @@ url: https://www.thenews.com.pk/print/15936-2014-darkest-year-in-terms-of-polio-
 authors:
 - Our Correspondent
 date: 27-08-2018
-globalID: 38
+globalID: 185
 heading: Implementation of 5pc quota for minorities in PA secretariat jobs sought
 language: en
 publisher: The News
@@ -2128,7 +2128,7 @@ url: https://www.thenews.com.pk/print/360154-implementation-of-5pc-quota-for-min
 authors:
 - Nadir Hassan
 date: 01-01-2015
-globalID: 39
+globalID: 189
 heading: A year of collective insanity
 language: en
 publisher: The News
@@ -2200,7 +2200,7 @@ url: https://www.thenews.com.pk/print/15974-a-year-of-collective-insanity
 authors:
 - Tariq Butt
 date: 01-01-2015
-globalID: 40
+globalID: 192
 heading: Political parties fear military courts may target them
 language: en
 publisher: The News
@@ -2285,7 +2285,7 @@ url: https://www.thenews.com.pk/print/15942-political-parties-fear-military-cour
 authors:
 - Muhammad Anis
 date: 01-01-2015
-globalID: 41
+globalID: 194
 heading: Pak-Afghan MPs call for joint efforts to curb terrorism
 language: en
 publisher: The News
@@ -2340,7 +2340,7 @@ url: https://www.thenews.com.pk/print/15948-pak-afghan-mps-call-for-joint-effort
 authors:
 - Kamila Hyat
 date: 01-01-2015
-globalID: 42
+globalID: 196
 heading: The power of the pulpit
 language: en
 publisher: The News
@@ -2441,7 +2441,7 @@ url: https://www.thenews.com.pk/print/15972-the-power-of-the-pulpit
 authors:
 - APP
 date: 27-08-2018
-globalID: 43
+globalID: 199
 heading: 3 security men among 5 hurt in Turbat grenade blast
 language: en
 publisher: The News
@@ -2465,7 +2465,7 @@ url: https://www.thenews.com.pk/print/360157-3-security-men-among-5-hurt-in-turb
 authors:
 - Mehtab Haider
 date: 01-01-2015
-globalID: 44
+globalID: 201
 heading: Oil price plunge gives Pakistan breathing space
 language: en
 publisher: The News
@@ -2538,7 +2538,7 @@ url: https://www.thenews.com.pk/print/15853-oil-price-plunge-gives-pakistan-brea
 authors:
 - Shahnawaz Akhter
 date: 01-01-2015
-globalID: 45
+globalID: 203
 heading: Legal experts slam sales tax increase procedure
 language: en
 publisher: The News
@@ -2595,7 +2595,7 @@ url: https://www.thenews.com.pk/print/15847-legal-experts-slam-sales-tax-increas
 authors:
 - Amir Mir
 date: 01-01-2015
-globalID: 46
+globalID: 205
 heading: Hanged PAF man was close aide of TTP leader
 language: en
 publisher: The News
@@ -2699,7 +2699,7 @@ url: https://www.thenews.com.pk/print/15935-hanged-paf-man-was-close-aide-of-ttp
 authors:
 - Jawwad Rizvi
 date: 01-01-2015
-globalID: 47
+globalID: 207
 heading: Apna Rozgar Scheme gets good response
 language: en
 publisher: The News
@@ -2749,7 +2749,7 @@ url: https://www.thenews.com.pk/print/15891-apna-rozgar-scheme-gets-good-respons
 authors:
 - Asim Yasin
 date: 27-08-2018
-globalID: 48
+globalID: 208
 heading: Malik asks Imran to form body to probe RTS failure
 language: en
 publisher: The News
@@ -2813,7 +2813,7 @@ url: https://www.thenews.com.pk/print/360153-malik-asks-imran-to-form-body-to-pr
 authors:
 - Our Correspondent
 date: 27-08-2018
-globalID: 49
+globalID: 209
 heading: "Two PPP politicians, PA\u2019s ex-deputy speaker join PTI"
 language: en
 publisher: The News
@@ -2843,7 +2843,7 @@ url: https://www.thenews.com.pk/print/360151-two-ppp-politicians-pa-s-ex-deputy-
 authors:
 - Ali Raza
 date: 01-01-2015
-globalID: 50
+globalID: 210
 heading: Dismal performance of Punjab Food Authority
 language: en
 publisher: The News
@@ -2894,7 +2894,7 @@ url: https://www.thenews.com.pk/print/15894-dismal-performance-of-punjab-food-au
 authors:
 - M. Waqar Bhatti
 date: 01-01-2015
-globalID: 51
+globalID: 211
 heading: "Promises didn\u2019t make Sindh any healthier in 2014"
 language: en
 publisher: The News
@@ -2954,7 +2954,7 @@ url: https://www.thenews.com.pk/print/15877-promises-didnt-make-sindh-any-health
 authors:
 - Shahab Ansari
 date: 01-01-2015
-globalID: 52
+globalID: 212
 heading: Faysal all praise for Geo
 language: en
 publisher: The News
@@ -3010,7 +3010,7 @@ url: https://www.thenews.com.pk/print/15898-faysal-all-praise-for-geo
 authors:
 - Sabir Shah
 date: 27-08-2018
-globalID: 53
+globalID: 213
 heading: PTI regime to follow the Swedish governance model
 language: en
 publisher: The News
@@ -3143,7 +3143,7 @@ url: https://www.thenews.com.pk/print/360155-pti-regime-to-follow-the-swedish-go
 authors:
 - Usman Manzoor
 date: 01-01-2015
-globalID: 54
+globalID: 214
 heading: Senate panel directs ministry to re-open motorway exit to new airport
 language: en
 publisher: The News
@@ -3197,7 +3197,7 @@ url: https://www.thenews.com.pk/print/15937-senate-panel-directs-ministry-to-re-
 authors:
 - Hussain H Zaidi
 date: 01-01-2015
-globalID: 55
+globalID: 215
 heading: State and religion
 language: en
 publisher: The News
@@ -3301,7 +3301,7 @@ url: https://www.thenews.com.pk/print/15973-state-and-religion
 authors:
 - Jamal Khurshid
 date: 01-01-2015
-globalID: 56
+globalID: 216
 heading: Establishment of military courts challenged
 language: en
 publisher: The News
@@ -3339,7 +3339,7 @@ url: https://www.thenews.com.pk/print/15887-establishment-of-military-courts-cha
 authors:
 - Salis bin Perwaiz
 date: 27-08-2018
-globalID: 57
+globalID: 217
 heading: Four FIRs lodged over drug raid gone wrong
 language: en
 publisher: The News
@@ -3394,7 +3394,7 @@ url: https://www.thenews.com.pk/print/360156-four-firs-lodged-over-drug-raid-gon
 authors:
 - Mehtab Haider
 date: 01-01-2015
-globalID: 58
+globalID: 218
 heading: Pakistan, Afghanistan to start talks on PTA today
 language: en
 publisher: The News
@@ -3450,7 +3450,7 @@ url: https://www.thenews.com.pk/print/15848-pakistan-afghanistan-to-start-talks-
 authors:
 - Taj M Khattak
 date: 01-01-2015
-globalID: 59
+globalID: 219
 heading: A capital storm
 language: en
 publisher: The News
@@ -3559,7 +3559,7 @@ url: https://www.thenews.com.pk/print/15975-a-capital-storm
 authors:
 - Shahid Aslam
 date: 01-01-2015
-globalID: 60
+globalID: 220
 heading: "Land record couldn\u2019t be computerised in 2014"
 language: en
 publisher: The News
@@ -3637,7 +3637,7 @@ url: https://www.thenews.com.pk/print/15915-land-record-couldnt-be-computerised-
 authors:
 - Asim Yasin
 date: 01-01-2015
-globalID: 61
+globalID: 221
 heading: Army Act, not Constitution, being amended to try terrorists
 language: en
 publisher: The News
@@ -3674,7 +3674,7 @@ url: https://www.thenews.com.pk/print/15949-army-act-not-constitution-being-amen
 authors:
 - Fakhar Durrani
 date: 01-01-2015
-globalID: 62
+globalID: 222
 heading: Names of heads for state-run enterprises finalised
 language: en
 publisher: The News
@@ -3738,7 +3738,7 @@ url: https://www.thenews.com.pk/print/15939-names-of-heads-for-state-run-enterpr
 authors:
 - Our Correspondent
 date: 27-08-2018
-globalID: 63
+globalID: 223
 heading: Ghani to keep a close eye on water board, SBCA, KDA, KMC
 language: en
 publisher: The News

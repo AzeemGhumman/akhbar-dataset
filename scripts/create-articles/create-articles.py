@@ -36,11 +36,13 @@ if not os.path.exists(outputFolderPath):
 
 
 # Create a lock for the chunk
-# lock = threading.Lock()
+lock = threading.Lock()
+
+globalID = 1
 
 def saveChunkToFile(articleChunk):
+    global globalID
 
-    counter = 0
     chunkFileContents = ""
     for sourceFile, publisher in articleChunk:
 
@@ -60,12 +62,13 @@ def saveChunkToFile(articleChunk):
             print (status)
             continue
 
-        article.globalID = counter
+        lock.acquire()
+        article.globalID = globalID
+        globalID += 1
+        lock.release()
+
         yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
         chunkFileContents += yamlOutput
-        counter += 1
-
-
 
     # TODO: get unique file id of chunk
     fullPath = os.path.join(outputFolderPath, "dataset-" + str(random.getrandbits(128)) + ".yaml")
