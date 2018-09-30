@@ -4,3 +4,4 @@ features:
   - CountWords
   - CountCharacters
   - FindProperNouns
+threads: 15

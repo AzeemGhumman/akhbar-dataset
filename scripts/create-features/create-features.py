@@ -13,8 +13,40 @@ import yaml
 import json
 import os
 import time
+from multiprocessing.dummy import Pool as ThreadPool
+import threading
+
 
 startTime = time.time()
+
+def createFeatureForArticle(articleDict):
+    # Check if all Article elements are present
+    if articleDict is None:
+        print ("Error: article is empty")
+        exit
+
+    tempArticle = common.Article()
+    for element in vars(tempArticle):
+        if element not in articleDict:
+            print ("Error: Missing Element " + element + " while processing " + article)
+
+    # Create Article
+    article = common.Article(articleDict = articleDict)
+
+    # Extract feature for this articles
+    featureDict = {}
+    try:
+        featureDict["globalID"] = article.globalID
+        featureDict["features"] = featureClass.extract(article)
+    except:
+        print ("Error: while extracting feature " + featureName)
+
+    # Critical Section
+    lock.acquire()
+    featureOutput.append(featureDict)
+    lock.release()
+
+
 
 if len(sys.argv) is 1:
     print ("Error: Please specify the config file path")
@@ -25,7 +57,7 @@ configFilePath = sys.argv[1]
 # configFilePath = "C:\\Users\\drzah\\Desktop\\newspaper\\newspaper-project\\configurations\\extract-features.yaml"
 
 # Load configuration data
-outputFolder, dataset, features = common.loadConfiguration(configFilePath, ["outputFolder", "dataset", "features"])
+outputFolder, dataset, features, threads = common.loadConfiguration(configFilePath, ["outputFolder", "dataset", "features", "threads"])
 
 # Create folder if not exists
 if not os.path.exists(outputFolder):
@@ -39,6 +71,9 @@ if not os.path.exists(dataset):
 # List may take more space but will help with multi-threaded application
 datasetDict = list(yaml.safe_load_all(open(dataset)))
 
+# Create a lock
+lock = threading.Lock()
+
 for featureName in features:
     # Dynamically load the right feature class
     fetureModule = common.dynamicImport(featureName)
@@ -47,29 +82,18 @@ for featureName in features:
     print ("Generating feature: " + featureName)
     # Create one file per feature
     featureOutput = []
-    for articleDict in datasetDict:
-        # Check if all Article elements are present
-        if articleDict is None:
-            print ("Error: dataset is empty")
-            exit
 
-        tempArticle = common.Article()
-        for element in vars(tempArticle):
-            if element not in articleDict:
-                print ("Error: Missing Element " + element + " while processing " + article)
+    # for articleDict in datasetDict:
+    #     createFeatureForArticle(articleDict)
 
-        # Create Article
-        article = common.Article(articleDict = articleDict)
+    # Make the Pool of workers
+    pool = ThreadPool(threads)
 
-        # Extract feature for this articles
-        featureDict = {}
-        try:
-            featureDict["globalID"] = article.globalID
-            featureDict["features"] = featureClass.extract(article)
-        except:
-            print ("Error: while extracting feature " + featureName)
-
-        featureOutput.append(featureDict)
+    # Extract Feature for given article
+    featureForDataset = pool.map(createFeatureForArticle, datasetDict)
+    # Close the pool and wait for the work to finish
+    pool.close()
+    pool.join()
 
     # Output To File
     fileContents = None
