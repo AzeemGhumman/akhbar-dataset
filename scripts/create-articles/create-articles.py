@@ -15,6 +15,7 @@ import time
 import pdb
 from multiprocessing.dummy import Pool as ThreadPool
 import threading
+import random
 
 startTime = time.time()
 
@@ -39,68 +40,84 @@ if not os.path.exists(outputFolderPath):
 
 def saveChunkToFile(articleChunk):
 
+    counter = 0
+    chunkFileContents = ""
+    for sourceFile, publisher in articleChunk:
+
+        if not os.path.exists(sourceFile):
+            print ("Error: file does not exists: " + articleSourceFile)
+            continue
+
+        articleSourceCode = open(sourceFile,"r", encoding='utf8').read()
+
+        article, status = publisherModulesDict[publisher].createArticleObject(globalID = None, \
+                                                     articleSourceFilename = sourceFile, \
+                                                     articleSourceCode = articleSourceCode)
+
+        # Write file to dataset only if status is empty
+        if len(status) > 0:
+            print ("File: " + sourceFile)
+            print (status)
+            continue
+
+        article.globalID = counter
+        yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
+        chunkFileContents += yamlOutput
+        counter += 1
 
 
-    # Make the Pool of workers
-    pool = ThreadPool(threads)
-    chunkFileContents = []
-    # Extract Feature for given article
-    pool.map(saveArticleToDataset, articleChunk)
-    # Close the pool and wait for the work to finish
-    pool.close()
-    pool.join()
 
     # TODO: get unique file id of chunk
-    fullPath = os.path.join(outputFolderPath, "dataset-" + str("1") + ".yaml")
+    fullPath = os.path.join(outputFolderPath, "dataset-" + str(random.getrandbits(128)) + ".yaml")
     outputFile = open(fullPath, 'w+')
-    outputText = "\n".join(chunkFileContents)
-    outputFile.write(outputText)
+    outputFile.write(chunkFileContents)
     outputFile.close()
 
-    pass
-
-def saveArticleToDataset(articleSourceFile):
-    # global fileID
-    global globalID
-    global chunkFileContents
-    # global lock
-
-    sourceFile, publisher = articleSourceFile
+    # print (chunkFileContents)
 
 
-    if not os.path.exists(sourceFile):
-        print ("Error: file does not exists: " + articleSourceFile)
-        return
-
-    articleSourceCode = open(sourceFile,"r", encoding='utf8').read()
-
-    article, status = publisherModulesDict[publisher].createArticleObject(globalID = None, \
-                                                         articleSourceFilename = sourceFile, \
-                                                         articleSourceCode = articleSourceCode)
-
-    # Write file to dataset only if status == ""
-    if len(status) > 0:
-        print ("File: " + sourceFile)
-        print (status)
-        return
-
-    # lock.acquire()
-    # setting the globalID here instead of article constructor to enable multiple thread create articles
-    # without worrying about unique globalIDs
-    article.globalID = globalID
-    yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
-    chunkFileContents.append(yamlOutput)
-    globalID += 1
-
-    pdb.set_trace()
-
-    # # Add publisher count
-    # if publisherName in publisherCounts:
-    #     publisherCounts[publisherName] += 1
-    # else:
-    #     publisherCounts[publisherName] = 0
-    #
-    lock.release()
+# def saveArticleToDataset(articleSourceFile):
+#     # global fileID
+#     global globalID
+#     global chunkFileContents
+#     # global lock
+#
+#     sourceFile, publisher = articleSourceFile
+#
+#
+#     if not os.path.exists(sourceFile):
+#         print ("Error: file does not exists: " + articleSourceFile)
+#         return
+#
+#     articleSourceCode = open(sourceFile,"r", encoding='utf8').read()
+#
+#     article, status = publisherModulesDict[publisher].createArticleObject(globalID = None, \
+#                                                          articleSourceFilename = sourceFile, \
+#                                                          articleSourceCode = articleSourceCode)
+#
+#     # Write file to dataset only if status == ""
+#     if len(status) > 0:
+#         print ("File: " + sourceFile)
+#         print (status)
+#         return
+#
+#     # lock.acquire()
+#     # setting the globalID here instead of article constructor to enable multiple thread create articles
+#     # without worrying about unique globalIDs
+#     article.globalID = globalID
+#     yamlOutput = "---\n" + yaml.dump(article.__dict__, default_flow_style = False) + "\n"
+#     chunkFileContents.append(yamlOutput)
+#     globalID += 1
+#
+#     pdb.set_trace()
+#
+#     # # Add publisher count
+#     # if publisherName in publisherCounts:
+#     #     publisherCounts[publisherName] += 1
+#     # else:
+#     #     publisherCounts[publisherName] = 0
+#     #
+#     lock.release()
 
 # Get a list of article files
 '''

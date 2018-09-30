@@ -13,4 +13,4 @@ inputSources:
   - publisher: TheNews
     folder: /Users/aghumman/Desktop/newspapers/akhbar-dataset/artifacts/source-code/TheNews
 chunkSize: 100
-threads: 5
+threads: 1
