@@ -5,21 +5,22 @@ Publisher: DailyTimes
 -----------------------------
 
 
-working on: D:\Temp\dailytimes\dailytimes.com.pk\117768\dr-ruth-pfau-a-beacon-of-light-lost\index.html
+working on: D:\Temp\dailytimes\dailytimes.com.pk\259872\woman-shot-dead-in-kashmore-over-honour\index.html
 
 
-working on: D:\Temp\dailytimes\dailytimes.com.pk\117631\brics-dropped-bricks-on-pakistan\index.html
+working on: D:\Temp\dailytimes\dailytimes.com.pk\dtculture\page\16\index.html
+Error parsing getArticleAuthors
 
 
-working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\fatima-dabeer\page\3\index.html
+working on: D:\Temp\dailytimes\dailytimes.com.pk\writer\jamal-dawoodpoto\page\15\index.html
 Error parsing getArticleTags
 Error parsing getArticleAuthors
 
 
-working on: D:\Temp\dailytimes\dailytimes.com.pk\271041\5-simple-ways-to-conserve-the-environment\index.html
+working on: D:\Temp\dailytimes\dailytimes.com.pk\206421\cannot-comprehend-scs-decision-says-nawaz\index.html
 
 
-working on: D:\Temp\dailytimes\dailytimes.com.pk\269541\mehdi-hassan-a-state-of-perpetual-melody\index.html
+working on: D:\Temp\dailytimes\dailytimes.com.pk\289065\tlp-sit-in\index.html
 
 
 -----------------------------
@@ -27,19 +28,19 @@ Publisher: Dawn
 -----------------------------
 
 
-working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page101074.html
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1238022.html
 
 
-working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1223456.html
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1220878.html
 
 
-working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page142273.html
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page1207325.html
 
 
-working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page111353.html
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page194549.html
 
 
-working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page201993.html
+working on: E:\DawnScrapping\Downloads\Dawn\Downloads\page195618.html
 
 
 -----------------------------
@@ -47,7 +48,13 @@ Publisher: FridayTimes
 -----------------------------
 
 
-working on: D:\Temp\friday-times\tft\tag\comment\page\48\index.html
+working on: D:\Temp\friday-times\tft\the-punjabi-contribution-to-cinema-v\index.html
+
+
+working on: D:\Temp\friday-times\tft\american-democracy-is-a-messy-affair\index.html
+
+
+working on: D:\Temp\friday-times\tft\2015\06\page\7\index.html
 Error parsing getArticleDate
 Error parsing getArticleText
 Error parsing getArticleHeading
@@ -55,16 +62,10 @@ Error parsing getArticleTags
 Error parsing getArticleAuthors
 
 
-working on: D:\Temp\friday-times\tft\all-hail-the-chief\indexbd0a.html
+working on: D:\Temp\friday-times\tft\reminiscences\index.html
 
 
-working on: D:\Temp\friday-times\tft\longer-challenge\index.html
-
-
-working on: D:\Temp\friday-times\tft\such-gup-138\index.html
-
-
-working on: D:\Temp\friday-times\tft\historic-blunder\index.html
+working on: D:\Temp\friday-times\tft\nuggets-from-the-urdu-press-247\index.html
 
 
 -----------------------------
@@ -72,19 +73,19 @@ Publisher: FrontierPost
 -----------------------------
 
 
-working on: D:\Temp\frontier\austria-to-expel-up-to-60-turkish-funded-imams-shut-7-mosques\index.html
+working on: D:\Temp\frontier\new-commander-pn-coastal-command-pakistan-navy-fleet-assume-charge\index.html
 
 
-working on: D:\Temp\frontier\explosives-laden-vehicle-seized\index.html
+working on: D:\Temp\frontier\na-53-former-pm-abbasi-cleared-to-contest-election\index.html
 
 
-working on: D:\Temp\frontier\five-killed-20-injured-kohat-firing-road-accidents\index.html
+working on: D:\Temp\frontier\nawaz-sharif-storms-judiciary-save-looted-money-imran-khan\index.html
 
 
-working on: D:\Temp\frontier\veere-di-wedding-banned-in-pakistan-rhea-kapoor-sends-loves-to-pakistani-fans\index.html
+working on: D:\Temp\frontier\ex-mna-quits-pti\index.html
 
 
-working on: D:\Temp\frontier\two-army-soldiers-martyred-six-terrorists-killed-in-waziristan-raid\index.html
+working on: D:\Temp\frontier\antonio-guterres-urges-stop-attacks-rohingya-muslims\index.html
 
 
 -----------------------------
@@ -92,19 +93,19 @@ Publisher: Geo
 -----------------------------
 
 
-working on: D:\Temp\Geo-Clean\Geo\192167.html
+working on: D:\Temp\Geo-Clean\Geo\171927.html
 
 
-working on: D:\Temp\Geo-Clean\Geo\206756.html
+working on: D:\Temp\Geo-Clean\Geo\6545.html
 
 
-working on: D:\Temp\Geo-Clean\Geo\158064.html
+working on: D:\Temp\Geo-Clean\Geo\198857.html
 
 
-working on: D:\Temp\Geo-Clean\Geo\208122.html
+working on: D:\Temp\Geo-Clean\Geo\200001.html
 
 
-working on: D:\Temp\Geo-Clean\Geo\194198.html
+working on: D:\Temp\Geo-Clean\Geo\204140.html
 
 
 -----------------------------
@@ -112,22 +113,22 @@ Publisher: TheNews
 -----------------------------
 
 
-working on: D:\Temp\thenews\print\88297-karzai-and-the-lost-war.html
+working on: D:\Temp\thenews\print\112838-Imran-says-he-held-talks-with-Nisar-on-aircraft.html
 
 
-working on: D:\Temp\thenews\writer\bureau-report\262.html
+working on: D:\Temp\thenews\print\209066-Daesh-headquarters-in-Pakistan-destroyed.html
+
+
+working on: D:\Temp\thenews\writer\myra-imran\84.html
 Error parsing getArticleDate
 Error parsing getArticleText
 Error parsing getArticleHeading
 Error parsing getArticleTags
 
 
-working on: D:\Temp\thenews\print\201647-Nisar-should-step-down-if-he-is-not-stubborn-Khursheed.html
+working on: D:\Temp\thenews\print\56680-kp-leaders-warn-against-changing-corridor-route.html
 
 
-working on: D:\Temp\thenews\print\283179-sugar-mills-case-no-matter-if-tareen-s-mills-sold-out-says-sc.html
-
-
-working on: D:\Temp\thenews\latest\295249-bus-115-with-pakistans-scenic-visual-display-launched-in-china.html
+working on: D:\Temp\thenews\latest\358697-bohra-community-celebrates-eid-ul-azha.html
 
 Done
